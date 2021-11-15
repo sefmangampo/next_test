@@ -1,0 +1,46 @@
+{
+  "name": "app-client-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint '*/**/*.{js,ts,tsx}'",
+    "lint:fix": "eslint '*/**/*.{js,ts,tsx}' --fix",
+    "export": "next export"
+  },
+  "dependencies": {
+    "bootstrap": "^4",
+    "formik": "^2.2.9",
+    "next": "^11.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-notifications-component": "^3.1.0",
+    "styled-components": "^5.3.0",
+    "wretch": "^1.7.4",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/node": "^16",
+    "@types/react": "^17.0.11",
+    "@types/react-notifications-component": "^3.1.0",
+    "@types/styled-components": "^5.1.10",
+    "@types/yup": "^0.29.11",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.28.0",
+    "eslint-config-next": "^11.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.1",
+    "typescript": "^4.3.3"
+  }
+}
